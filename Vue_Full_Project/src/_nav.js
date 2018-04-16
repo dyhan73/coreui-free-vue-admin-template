@@ -3,6 +3,15 @@ export default {
     {
       name: 'Dashboard',
       url: '/dashboard',
+      icon: 'icon-speedometer'
+    },
+    {
+      divider: true,
+      class: 'a b c'
+    },
+    {
+      name: 'MyDashboard',
+      url: '/dashboard',
       icon: 'icon-speedometer',
       badge: {
         variant: 'primary',

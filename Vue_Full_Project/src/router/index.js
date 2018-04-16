@@ -55,7 +55,9 @@ import Register from '@/views/pages/Register'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'hash', // Demo is living in GitHub.io, so required!
+  // mode: 'hash', // Demo is living in GitHub.io, so required!
+  mode: 'history',
+  base: '/',
   linkActiveClass: 'open active',
   scrollBehavior: () => ({ y: 0 }),
   routes: [
